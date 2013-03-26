@@ -3,10 +3,10 @@ module('I convert euro to usd',{
         this.currency = 'USD';
     }
 });
-test('1€ should return 1,3', function() {
+test('1€ should return 1,3$', function() {
     strictEqual(convertEuro(1, this.currency), 1.3, 'succeed !');
 });
-test('1€ should return 2,6', function() {
+test('1€ should return 2,6$', function() {
     strictEqual(convertEuro(2, this.currency), 2.6, 'succeed !');
 });
 
